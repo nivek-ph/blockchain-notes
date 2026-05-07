@@ -370,4 +370,4 @@ A: 在测试网获取免费测试币：
 
 - 查看 [TON 官方文档](https://docs.ton.org/)
 - 加入 [TON 开发者社区](https://t.me/tondev)
-- 提交 [GitHub Issue](https://github.com/iamnivekx/blockchain-notes/issues)
+- 提交 [GitHub Issue](https://github.com/nivek-phx/blockchain-notes/issues)

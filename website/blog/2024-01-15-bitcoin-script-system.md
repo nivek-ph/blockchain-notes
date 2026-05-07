@@ -1,7 +1,7 @@
 ---
 slug: bitcoin-script-system
 title: 比特币脚本系统详解 - 从理论到实践
-authors: [iamnivekx]
+authors: [nivek-phx]
 tags: [bitcoin, script, blockchain, development]
 ---
 

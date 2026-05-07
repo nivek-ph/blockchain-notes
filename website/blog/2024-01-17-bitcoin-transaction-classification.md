@@ -1,7 +1,7 @@
 ---
 slug: bitcoin-transaction-classification
 title: 比特币交易类型分类详解 - 识别与分析
-authors: [iamnivekx]
+authors: [nivek-phx]
 tags: [bitcoin, transaction, p2pkh, p2sh, segwit, multisig]
 ---
 

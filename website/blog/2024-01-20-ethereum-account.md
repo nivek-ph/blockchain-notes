@@ -1,6 +1,6 @@
 ---
 title: 钱包和地址生成
-authors: [iamnivekx]
+authors: [nivek-phx]
 tags: ['ethereum', 'account']
 ---
 

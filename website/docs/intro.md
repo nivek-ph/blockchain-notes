@@ -131,7 +131,7 @@ nvm use 18
 git --version
 
 # 克隆项目
-git clone https://github.com/iamnivekx/blockchain-notes.git
+git clone https://github.com/nivek-phx/blockchain-notes.git
 cd blockchain-notes
 ```
 
@@ -154,7 +154,7 @@ cd blockchain-notes
 
 ## 🎉 社区资源
 
-- **GitHub**: [iamnivekx/blockchain-notes](https://github.com/iamnivekx/blockchain-notes)
+- **GitHub**: [nivek-phx/blockchain-notes](https://github.com/nivek-phx/blockchain-notes)
 - **问题反馈**: 通过 GitHub Issues 提交问题
 - **贡献代码**: Fork 项目并提交 Pull Request
 - **分享经验**: 在社区中分享你的学习成果

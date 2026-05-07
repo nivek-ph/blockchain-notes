@@ -1,7 +1,7 @@
 ---
 slug: bitcoin-transaction-building
 title: 比特币交易构建与签名 - 完整实践指南
-authors: [iamnivekx]
+authors: [nivek-phx]
 tags: [bitcoin, transaction, psbt, signature, bitcoinjs-lib]
 ---
 

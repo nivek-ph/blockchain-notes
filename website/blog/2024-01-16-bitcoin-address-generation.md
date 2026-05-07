@@ -1,7 +1,7 @@
 ---
 slug: bitcoin-address-generation
 title: 比特币地址生成与验证 - 完整指南
-authors: [iamnivekx]
+authors: [nivek-phx]
 tags: [bitcoin, address, bech32, base58, cryptography]
 ---
 

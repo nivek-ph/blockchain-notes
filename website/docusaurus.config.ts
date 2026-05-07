@@ -5,7 +5,6 @@ import rehypeKatex from 'rehype-katex';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
-
 /** @type {import('@docusaurus/types').Config} */
 const config: Config = {
   title: 'Blockchain Notes',
@@ -28,14 +27,14 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://iamnivekx.github.com',
+  url: 'https://nivek-ph.github.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/blockchain-notes/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'iamnivekx', // Usually your GitHub org/user name.
+  organizationName: 'nivek-ph', // Usually your GitHub org/user name.
   projectName: 'blockchain-notes', // Usually your repo name.
 
   onBrokenLinks: 'warn',
@@ -54,10 +53,10 @@ const config: Config = {
       return {
         name: 'tailwind-plugin',
         configurePostCss(postcssOptions) {
-          postcssOptions.plugins = [require('@tailwindcss/postcss')]
-          return postcssOptions
-        }
-      }
+          postcssOptions.plugins = [require('@tailwindcss/postcss')];
+          return postcssOptions;
+        },
+      };
     },
     [
       '@docusaurus/plugin-ideal-image',
@@ -79,14 +78,10 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // path: 'docs',
           breadcrumbs: true,
-          editUrl:
-            'https://github.com/iamnivekx/blockchain-notes/tree/main',
+          editUrl: 'https://github.com/nivek-ph/blockchain-notes/tree/main',
           routeBasePath: '/',
-          remarkPlugins: [
-            remarkCodeImport,
-            remarkMath
-          ],
-          rehypePlugins: [rehypeKatex]
+          remarkPlugins: [remarkCodeImport, remarkMath],
+          rehypePlugins: [rehypeKatex],
         },
         blog: {
           showReadingTime: true,
@@ -98,10 +93,7 @@ const config: Config = {
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
-          remarkPlugins: [
-            remarkCodeImport,
-            remarkMath
-          ],
+          remarkPlugins: [remarkCodeImport, remarkMath],
           rehypePlugins: [rehypeKatex],
         },
         theme: {
@@ -113,9 +105,7 @@ const config: Config = {
 
   themeConfig: {
     image: 'img/favicon-16x16.png',
-    metadata: [
-      { name: 'algolia-site-verification', content: 'A6947CB4CC36D268' },
-    ],
+    metadata: [{ name: 'algolia-site-verification', content: 'A6947CB4CC36D268' }],
     navbar: {
       title: 'Blockchain Notes',
       logo: {
@@ -127,13 +117,13 @@ const config: Config = {
         // { to: '/intro', label: 'Docs', position: 'left' },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/iamnivekx/blockchain-notes',
+          href: 'https://github.com/nivek-ph/blockchain-notes',
           label: 'GitHub',
           position: 'right',
         },
       ],
     },
-    docs: { sidebar: { autoCollapseCategories: true, hideable: true, }, },
+    docs: { sidebar: { autoCollapseCategories: true, hideable: true } },
     blog: { sidebar: { groupByYear: true } },
     sitemap: {
       changefreq: 'weekly',
@@ -155,7 +145,7 @@ const config: Config = {
             },
             {
               label: 'Examples',
-              href: 'https://github.com/iamnivekx/blockchain-notes/tree/main/examples',
+              href: 'https://github.com/nivek-ph/blockchain-notes/tree/main/examples',
             },
           ],
         },
@@ -185,11 +175,11 @@ const config: Config = {
           items: [
             {
               label: 'Issues & Support',
-              href: 'https://github.com/iamnivekx/blockchain-notes/issues',
+              href: 'https://github.com/nivek-ph/blockchain-notes/issues',
             },
             {
               label: 'Contributing',
-              href: 'https://github.com/iamnivekx/blockchain-notes/blob/main/CONTRIBUTING.md',
+              href: 'https://github.com/nivek-ph/blockchain-notes/blob/main/CONTRIBUTING.md',
             },
           ],
         },
@@ -202,12 +192,12 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/iamnivekx',
-            }
+              href: 'https://github.com/nivek-ph',
+            },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} iamnivekx. Built with ❤️ for the blockchain community.`,
+      copyright: `Copyright © ${new Date().getFullYear()} nivek-ph. Built with ❤️ for the blockchain community.`,
     },
     // algolia: {
     //   contextualSearch: true,
@@ -241,8 +231,8 @@ const config: Config = {
       { highlight: 'r', language: 'r', logoClass: 'r' },
       { highlight: 'swift', language: 'swift', logoClass: 'swift' },
       { highlight: 'kotlin', language: 'kotlin', logoClass: 'kotlin' },
-      { highlight: 'rust', language: 'rust', logoClass: 'rust' }
-    ]
+      { highlight: 'rust', language: 'rust', logoClass: 'rust' },
+    ],
   } satisfies Preset.ThemeConfig,
   themes: [
     [
@@ -251,13 +241,13 @@ const config: Config = {
         indexPages: true,
         docsRouteBasePath: '/docs',
         hashed: true,
-        language: ["en", "zh"],
+        language: ['en', 'zh'],
         highlightSearchTermsOnTargetPage: false,
         searchResultContextMaxLength: 50,
         searchResultLimits: 5,
         searchBarShortcut: true,
-        searchBarShortcutHint: true
-      }
+        searchBarShortcutHint: true,
+      },
     ],
     [
       '@docusaurus/theme-mermaid',
@@ -266,7 +256,7 @@ const config: Config = {
           theme: 'dark',
         },
       },
-    ]
+    ],
   ],
   markdown: {
     mermaid: true,

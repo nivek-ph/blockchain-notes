@@ -1,6 +1,6 @@
 # 地址管理
 
-> 📁 **完整代码** [examples/solana/account/address.ts](https://github.com/iamnivekx/blockchain-notes/blob/main/examples/solana/account/address.ts)
+> 📁 **完整代码** [examples/solana/account/address.ts](https://github.com/nivek-phx/blockchain-notes/blob/main/examples/solana/account/address.ts)
 >
 在Solana中，地址是账户的唯一标识符，用于接收SOL、SPL代币和调用智能合约。理解地址的生成和验证对于开发安全的应用程序至关重要。
 
