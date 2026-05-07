@@ -4,7 +4,7 @@
   "description": "BlockChain notes",
   "license": "MIT",
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=24.0.0"
   },
   "author": "h499871809@gmail.com",
   "bugs": {
